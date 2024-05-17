@@ -51,6 +51,25 @@ This command locks all commands depending the sub-comand you enter. For example,
   1. lock.signin [Locks signin]
   2. lock.notif [Locks notifcreate]
   3. lock.interface [Disables entire program]
-
+#### Balance/Credits
+Currently, balance and credits lead to the same page. You can access this page by entering either bal or credits into the prompt. You should see an example of teh current credits in the acount, credits that are one hold (due to the pending transfer), as well as past history. 
+I am planning to make this functional but so far I only have a draft of what I am planning to do.
+#### Server Control
+I created this function for me personally so I can SSH into my servers through this application. I have several RPI's set up at my house which is why I have this.
+The control for this command are a bit difficult to understand which is why I included a video that goes through all of this.
+#### Help
+The help section follow this format: help.[phrase/number].[section [0]]
+Directory:
+  1. help.login 
+  2. help.login.1 
+  3. help.signin 
+  4. help.signin.1 
+  5. help.notifcreate
+  6. help.notifcreate.1 
+  7. help.notif 
+  8. help.notif.1 
+This function is the BETA stage.
+#### Exit 
+Exits the program.
 
 
